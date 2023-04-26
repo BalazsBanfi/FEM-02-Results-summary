@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
-    border: 1px solid red;
 }
 
 
@@ -43,7 +42,6 @@ main {
     height: 150px;
     border-radius: 50%;
     display: grid;
-
 }
 
 .circle h2 {
@@ -59,4 +57,85 @@ main {
 .result h3 {
     font-size: 2rem;
     font-weight: 700;
+}
+
+.summarySection {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+}
+.summarySection p, .button {
+    padding: 1rem;
+    text-align: left;
+    margin: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+
+.opacity {
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.right {
+    color: black;
+    float: right;
+}
+
+.red {
+    color: hsl(0, 100%, 67%);
+    background: hsla(0, 100%, 67%, 0.1);
+}
+
+.red::before {
+    content: url("./assets/images/icon-reaction.svg");
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+.yellow {
+    color: hsl(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 0.1);
+}
+
+.yellow::before {
+    content: url("./assets/images/icon-memory.svg");
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+.green {
+    color: hsl(166, 100%, 37%);
+    background: hsla(166, 100%, 37%, 0.1);
+}
+
+.green::before {
+    content: url("./assets/images/icon-verbal.svg");
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+.blue {
+    color: hsl(234, 85%, 45%);
+    background: hsla(234, 85%, 45%, 0.1);
+}
+
+.blue::before {
+    content: url("./assets/images/icon-visual.svg");
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+.button {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    background: hsl(224, 30%, 27%);
+    border-radius: 30px;
 }
