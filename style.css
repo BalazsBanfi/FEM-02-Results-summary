@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
+    border: 1px solid red;
 }
 
 
@@ -72,6 +73,9 @@ main {
     border-radius: 10px;
 }
 
+.summary {
+    padding-left: 0px !important;
+}
 
 .opacity {
     opacity: 0.5;
