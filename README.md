@@ -19,7 +19,8 @@ This is a solution to the [Result summary challenge on Frontend Mentor](https://
 
 ### Screenshot
 
-![Screenshot](./images/screenshot.jpg)
+![Screenshot](./images/screenshotMobil.jpg)
+![Screenshot](./images/screenshotDesktop.jpg)
 
 
 ### Links

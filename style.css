@@ -164,7 +164,7 @@ main {
   main {
     flex-direction: row;
     border-radius: 30px;
-    box-shadow: 5px 10px 48px hsl(241, 100%, 89%);
+    box-shadow: 10px 20px 20px hsla(241, 100%, 89%, 0.3);
   }
   .result {
     border-radius: 30px;
